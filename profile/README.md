@@ -1,41 +1,46 @@
+# Cool Buttons Organization
+
 <p align="center">
   <a href="https://coolbuttons.dev">
-    <img src="./favicon.svg" alt="Cool Buttons - The Ultimate Button Component Library" width="80">
+    <img src="./icon.png" alt="Cool Buttons - The Ultimate Button Component Library" width="100">
   </a>
 </p>
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/@coolbuttons/react"><img src="https://img.shields.io/npm/v/@coolbuttons/react" alt="npm version"></a>
-  <a href="https://www.npmjs.com/package/@coolbuttons/react"><img src="https://img.shields.io/npm/dm/@coolbuttons/react" alt="npm downloads"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license"></a>
-  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.0-blue.svg" alt="TypeScript"></a>
-</p>
+<h1 align="center">Welcome to Cool Buttons Organization</h1>
 
 <p align="center">
+  <strong>Building the ultimate collection of button components for modern web development</strong>
+  <br />
+  <br />
   <a href="https://coolbuttons.dev">Website</a>
   ·
-  <a href="https://www.npmjs.com/package/@coolbuttons/react">Packages</a>
+  <a href="https://www.npmjs.com/org/coolbuttons">NPM Organization</a>
   ·
-  <a href="./OFFLINE_FEATURES.md">Guide</a>
+  <a href="#packages">Packages</a>
   ·
-  <a href="https://github.com/coolbuttons/coolbuttons">GitHub</a>
+  <a href="https://github.com/coolbuttons/coolbuttons/issues">Issues</a>
+  ·
+  <a href="https://github.com/coolbuttons/coolbuttons/discussions">Discussions</a>
 </p>
 
-# Cool Buttons
+---
 
-Cool Buttons is an open-source button component library that provides 200+ beautifully crafted, production-ready button styles for React and Vanilla JavaScript. The library aims to make it easier for designers and developers to incorporate stunning buttons into their projects by providing several official packages with full TypeScript support.
+## 🎯 Our Mission
 
-## Packages
+We're on a mission to provide developers and designers with 200+ beautifully crafted, production-ready button components that are:
 
-| Logo | Package | Version | Downloads | Links |
-| ---- | ------- | ------- | --------- | ----- |
-| <img src="https://cdn.jsdelivr.net/npm/react@18/favicon.ico" alt="React logo" width="48"> | **`@coolbuttons/react`** | [![npm](https://img.shields.io/npm/v/@coolbuttons/react)](https://www.npmjs.com/package/@coolbuttons/react) | ![NPM Downloads](https://img.shields.io/npm/dw/@coolbuttons/react) | [Docs](https://www.npmjs.com/package/@coolbuttons/react) · [Source](./packages/react) |
-| <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517f3494d/topics/javascript/javascript.png" alt="JavaScript logo" width="48"> | **`@coolbuttons/vanilla`** | [![npm](https://img.shields.io/npm/v/@coolbuttons/vanilla)](https://www.npmjs.com/package/@coolbuttons/vanilla) | ![NPM Downloads](https://img.shields.io/npm/dw/@coolbuttons/vanilla) | [Docs](https://www.npmjs.com/package/@coolbuttons/vanilla) · [CDN](https://cdn.jsdelivr.net/npm/@coolbuttons/vanilla@1.0.4/dist/coolbuttons.min.js) |
-| <img src="https://img.shields.io/badge/Universal-Package-orange" alt="Universal logo" width="48"> | **`coolbuttons`** | [![npm](https://img.shields.io/npm/v/coolbuttons)](https://www.npmjs.com/package/coolbuttons) | ![NPM Downloads](https://img.shields.io/npm/dw/coolbuttons) | [Docs](https://www.npmjs.com/package/coolbuttons) · [Source](./packages) |
+- **Easy to use** - Copy-paste ready components for React and Vanilla JavaScript
+- **Highly customizable** - Full control over styles, animations, and effects
+- **Performance optimized** - Lightweight, fast-loading, and efficient
+- **Well documented** - Comprehensive guides and interactive examples
+- **Open source** - MIT licensed and community-driven
 
-## Installation
+---
 
-### React
+## 📦 Packages
+
+### [@coolbuttons/react](https://www.npmjs.com/package/@coolbuttons/react)
+React components with full TypeScript support, hooks-based, and tree-shakeable.
 
 ```bash
 npm install @coolbuttons/react
@@ -45,17 +50,12 @@ npm install @coolbuttons/react
 import { Claymorphic, GlassCard, NeonBorder } from '@coolbuttons/react';
 
 export default function App() {
-  return (
-    <div className="flex gap-4">
-      <Claymorphic>Click me</Claymorphic>
-      <GlassCard>Glass Card</GlassCard>
-      <NeonBorder>Neon Border</NeonBorder>
-    </div>
-  );
+  return <Claymorphic>Click me</Claymorphic>;
 }
 ```
 
-### Vanilla JavaScript
+### [@coolbuttons/vanilla](https://www.npmjs.com/package/@coolbuttons/vanilla)
+Vanilla JavaScript implementation with zero dependencies, perfect for non-React projects.
 
 ```bash
 npm install @coolbuttons/vanilla
@@ -66,57 +66,152 @@ import { createButton } from '@coolbuttons/vanilla';
 
 createButton('claymorphic', {
   text: 'Click Me!',
-  onClick: () => console.log('Button clicked!')
+  onClick: () => console.log('Clicked!')
 }).mount('#app');
 ```
 
-### CDN
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/@coolbuttons/vanilla@1.0.4/dist/coolbuttons.min.js"></script>
-<script>
-  new CoolButton('Click me!', {
-    onClick: () => console.log('Clicked!')
-  }).mount('#app');
-</script>
-```
-
-## Features
-
-- 200+ beautifully crafted button styles
-- Full TypeScript support
-- Works with React and Vanilla JavaScript
-- Zero dependencies
-- Dark mode support
-- CDN ready
-- Offline support with Service Worker
-- Professional error pages included
-
-## Contributing
-
-For more info on how to contribute please see the [contribution guidelines](./CONTRIBUTING.md).
-
-## License
-
-Cool Buttons is totally free for commercial use and personal use, this software is licensed under the [MIT License](LICENSE).
-
-## Community
-
-Have questions or want to share your Cool Buttons creations?
-
-- 🌐 [Website](https://coolbuttons.dev)
-- 🐙 [GitHub](https://github.com/coolbuttons/coolbuttons)
-- 📧 [Email](mailto:devchauhan.developer@gmail.com)
-
-<p align="center">
-  <a href="https://vercel.com/?utm_source=coolbuttons">
-    <img src="https://img.shields.io/badge/Powered%20by-Vercel-black" alt="Powered by Vercel" />
-  </a>
-  <a href="https://buymeacoffee.com/dev3">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-dev3-FFDD00?logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
-  </a>
-</p>
+### [coolbuttons](https://www.npmjs.com/package/coolbuttons)
+Universal package supporting multiple frameworks and use cases.
 
 ---
 
-Made with ❤️ by [Dev Chauhan](https://github.com/devchauhan)
+## 🌟 Button Styles
+
+Our collection includes 200+ unique button styles organized by design language:
+
+### Design Categories
+- **Glassmorphic & Glass Effects** - Frosted glass, transparency, light effects
+- **Neumorphic** - Soft, embossed, 3D depth effects
+- **Cyberpunk & Neon** - Bold, glowing, futuristic aesthetics
+- **Minimal & Modern** - Clean, simple, contemporary designs
+- **Retro & Vintage** - Classic 90s, terminal, industrial looks
+- **Advanced Effects** - Liquid, morph, gradient, particle effects
+- **Interactive** - Magnetic, bouncy, floating, responsive interactions
+
+Browse all styles at [coolbuttons.dev](https://coolbuttons.dev)
+
+---
+
+## 🚀 Features
+
+✨ **200+ Button Styles** - Carefully designed and tested  
+⚛️ **Multi-Framework** - React, Vanilla JS, and more  
+🎨 **Highly Customizable** - CSS, inline styles, and theme variables  
+🌙 **Dark Mode Support** - Automatic light/dark mode detection  
+📱 **Fully Responsive** - Works on mobile, tablet, desktop  
+🔌 **CDN Ready** - Load directly from jsDelivr without npm  
+📡 **Offline Support** - Service Worker integration  
+🚫 **Error Pages** - Professional 404 and offline pages  
+♿ **Accessible** - WCAG compliant with keyboard navigation  
+📦 **Zero Dependencies** - Lightweight and standalone  
+
+---
+
+## 🛠️ Development
+
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/coolbuttons/coolbuttons.git
+cd coolbuttons
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build all packages
+npm run build
+```
+
+### Project Structure
+```
+coolbuttons/
+├── packages/
+│   ├── react/          # React components
+│   ├── vanilla/        # Vanilla JavaScript
+│   └── coolbuttons/    # Universal package
+├── components/         # Demo components
+├── data/              # Button library data
+├── public/            # Static assets
+└── utils/             # Utility functions
+```
+
+### Contributing
+We love contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingButton`)
+3. Commit your changes (`git commit -m 'Add AmazingButton'`)
+4. Push to the branch (`git push origin feature/AmazingButton`)
+5. Open a Pull Request
+
+---
+
+## 📊 Stats
+
+- **200+** button styles
+- **3** official packages
+- **100%** TypeScript support
+- **MIT** licensed
+- **Community** driven
+
+---
+
+## 🤝 Get Involved
+
+We're always looking for:
+- **Button Designers** - Help us create new button styles
+- **Developers** - Contribute code and improvements
+- **Documentation Writers** - Improve guides and examples
+- **Designers** - Help with UI/UX improvements
+- **Community Members** - Share feedback and ideas
+
+Join our community:
+- 💬 [GitHub Discussions](https://github.com/coolbuttons/coolbuttons/discussions)
+- 🐛 [Report Issues](https://github.com/coolbuttons/coolbuttons/issues)
+- 📧 [Email Us](mailto:devchauhan.developer@gmail.com)
+
+---
+
+## 📚 Resources
+
+- 🌐 [Official Website](https://coolbuttons.dev)
+- 📖 [Documentation](https://coolbuttons.dev/guide)
+- 📦 [NPM Organization](https://www.npmjs.com/org/coolbuttons)
+- 🔗 [GitHub](https://github.com/coolbuttons)
+
+---
+
+## 📄 License
+
+All packages are licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgments
+
+Cool Buttons is built with ❤️ by the community. Special thanks to:
+
+- All our contributors and supporters
+- The amazing React and JavaScript communities
+- Inspired by beautiful design systems worldwide
+
+---
+
+## 💫 Support the Project
+
+If you love Cool Buttons, please consider:
+- ⭐ **Star the repository** on GitHub
+- 🎁 **Share with friends** and colleagues
+- 💰 **Support development** - [Buy Me a Coffee](https://buymeacoffee.com/dev3)
+- 📣 **Spread the word** on social media
+
+---
+
+<p align="center">
+  Made with ❤️ by the Cool Buttons Organization
+  <br />
+  <a href="https://coolbuttons.dev">Visit Website</a> · <a href="https://github.com/coolbuttons">View GitHub</a>
+</p>
