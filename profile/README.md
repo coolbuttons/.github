@@ -1,12 +1,10 @@
-# Cool Buttons Organization
-
 <p align="center">
   <a href="https://coolbuttons.dev">
     <img src="./icon.png" alt="Cool Buttons - The Ultimate Button Component Library" width="100">
   </a>
 </p>
 
-<h1 align="center">Welcome to Cool Buttons Organization</h1>
+<h1 align="center">Welcome to Cool Buttons</h1>
 
 <p align="center">
   <strong>Building the ultimate collection of button components for modern web development</strong>
