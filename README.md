@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://coolbuttons.dev">
-    <img src="./favicon.svg" alt="Cool Buttons - The Ultimate Button Component Library" width="80">
+    <img src="./icon.png" alt="Cool Buttons - The Ultimate Button Component Library" width="80">
   </a>
 </p>
 
